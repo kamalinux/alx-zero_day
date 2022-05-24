@@ -1,0 +1,26 @@
+## Clone your repository
+
+git clone https://{YOUR_PERSONAL_TOKEN}@github.com/{YOUR_USERNAME}/alx-zero_day.git
+
+
+```
+git add . // Snapshots the file in preparation for versioning
+git commit -m 'Your comment' // Records file snapshots permanently in version history
+git push // Uploads all local branch commits to GitHub
+git pull // Updates your current local working branch with all new commits from the corresponding remote branch on GitHub. git pull is a combination of git fetch and git merge
+```
+
+## Create and work with branchs (update_script)
+```
+git branch update_script // Create a new branch
+git checkout -b update_script // Create a new branch
+git branch -a // see all created branches
+git push --set-upstream origin update_script // 
+```
+
+
+
+## Switches to the specified branch (master) and updates the working directory
+```
+git checkout master
+```
